@@ -1,0 +1,98 @@
+.site-footer {
+    position: relative;
+    padding-bottom: 200px;
+  }
+  
+  .site-footer .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .site-footer  {
+    position: absolute;
+    bottom: 0pt;
+    right: 0;
+    left: 0;
+  }
+  
+  .site-footer-title {
+    color: var(--secondary-color);
+  }
+  
+  .site-footer p span {
+    font-weight: var(--font-weight-medium);
+    margin-right: auto;
+  }
+  .social-icon {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icon-item {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .social-icon-link {
+    background: var(--secondary-color);
+    border-radius: var(--border-radius-large);
+    color: var(--white-color);
+    font-size: var(--btn-font-size);
+    display: block;
+    margin-right: 5px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .social-icon-link:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+  }
+  
+  .navbar-brand,
+  .navbar-brand:hover {
+    font-size: var(--h4-font-size);
+    font-weight: var(--font-weight-bold);
+    display: block;
+    color: var(--dark-color);
+    max-width: 48px;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .navbar-brand:hover {
+    color: var(--white-color);
+  }
+  
+  .navbar .navbar-brand-image {
+    filter: brightness(0) invert(1);
+  }
+  
+  .navbar-brand-image {
+    width: 50%;
+    height: auto;
+  }
+  
+  .navbar-brand-text {
+    line-height: normal;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+  }
+  
+  .navbar-brand-text small {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    border-radius: var(--border-radius-large);
+    margin: 10px;
+    padding: 10px;
+    
+  }

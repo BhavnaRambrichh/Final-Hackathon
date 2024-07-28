@@ -1,0 +1,125 @@
+.custom-block {
+    border-radius: var(--border-radius-medium);
+    position: relative;
+    overflow: hidden;
+    padding: 30px 20px;
+    background: var(--white-color);
+  }
+  
+  .custom-block-date-wrap {
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-medium);
+    text-align: center;
+    padding: 20px 30px;
+  }
+  
+  .custom-block-date {
+    font-size: var(--h1-font-size);
+  }
+  
+  .custom-block-image-wrap {
+    border-radius: var(--border-radius-medium);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .custom-block-image-wrap img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-medium);
+    transition: transform 0.3s;
+  }
+  
+  .custom-block-image-wrap:hover img {
+    transform: scale(1.2);
+  }
+  
+  .custom-block-image-wrap:hover .custom-block-icon {
+    opacity: 1;
+  }
+  
+  .custom-block-icon {
+    background: var(--custom-btn-bg-color);
+    border-radius: var(--border-radius-large);
+    color: var(--white-color);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: var(--h3-font-size);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  
+  .custom-block-icon:hover {
+    background: var(--custom-btn-bg-hover-color);
+    color: var(--white-color);
+  }
+  
+  .custom-block-image-wrap .custom-block-date-wrap,
+  .custom-block-image-wrap .custom-btn-wrap {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .custom-block-image-wrap .custom-block-date-wrap {
+    border-radius: 0;
+    left: 0;
+    width: 50%;
+    padding: 12px 20px;
+  }
+  
+  .custom-block-image-wrap .custom-btn-wrap {
+    right: 0;
+    width: 50%;
+  }
+  
+  .custom-block-image-wrap .custom-btn {
+    border-radius: 0;
+    display: block;
+    padding: 15px 20px;
+  }
+  
+  .custom-block-info {
+    padding-top: 10px;
+  }
+  
+  .custom-block-image-wrap + .custom-block-info {
+    padding-top: 20px;
+  }
+  
+  .custom-block-span {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-bold);
+    min-width: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .liked i {
+    color: red;
+  }
+  
+  .comment-box {
+    position: relative;
+    width: 100%;
+  }
+  
+  .comment-box textarea {
+    width: calc(100% - 32px);
+    padding-right: 32px;
+  }
+  
+  .comment-box .bi-send {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+  }
+  

@@ -1,0 +1,17 @@
+.donate-container {
+  padding: 20px;
+}
+
+.donation-step {
+  margin-bottom: 20px;
+}
+
+.donation-amounts button,
+.donation-amounts input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.donation-buttons button {
+  margin-right: 10px;
+}
