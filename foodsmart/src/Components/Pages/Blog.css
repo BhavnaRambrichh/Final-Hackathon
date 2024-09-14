@@ -123,3 +123,75 @@
     font-size: 24px;
   }
   
+  /* Adjust image wrapping and alignment */
+.custom-block-image-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 250px; /* Adjust height to ensure images fit correctly */
+}
+
+.custom-block-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fits without distortion */
+}
+
+.custom-block-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Align the like button, comment box, and send icon */
+.custom-block-info .d-flex {
+  align-items: center;
+}
+
+.custom-block-span {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #188833;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.custom-block-span.liked i {
+  color: red; /* Change to red when liked */
+}
+
+.comment-box {
+  flex-grow: 1;
+}
+
+.comment-box textarea {
+  resize: none;
+  height: 35px; /* Adjust for better alignment */
+  padding: 5px;
+}
+
+.bi-send {
+  color: #188833;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .custom-block-date-wrap {
+    margin-bottom: 10px;
+  }
+
+  .custom-block-date-wrap h6,
+  .custom-block-date-wrap strong {
+    font-size: 14px;
+  }
+
+  .custom-block-image-wrap {
+    height: 180px; /* Smaller image height for mobile */
+  }
+
+  .custom-block-span {
+    margin-right: 10px;
+  }
+}

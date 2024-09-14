@@ -69,6 +69,7 @@ function Navbar() {
           </form>
           <div className="mt-auto mb-5">
             <p><strong className="text-white me-3">Any Questions?</strong></p>
+            <a href="tel:010-020-0340" className="contact-link">010-020-0340</a>
           </div>
         </div>
       </div>

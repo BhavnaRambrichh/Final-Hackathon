@@ -1,17 +1,44 @@
-.donate-container {
+/* General form styling for both sections */
+.custom-form {
+  background-color: #fff;
+  border-radius: 8px;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.donation-step {
-  margin-bottom: 20px;
+.custom-form h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.donation-amounts button,
-.donation-amounts input {
-  margin-right: 10px;
-  margin-bottom: 10px;
+.custom-form .form-floating {
+  margin-bottom: 1rem;
 }
 
-.donation-buttons button {
-  margin-right: 10px;
+.custom-form .form-control {
+  border-radius: 0.5rem;
+}
+
+.custom-form .form-check {
+  margin-bottom: 1rem;
+}
+
+.custom-form .btn {
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.custom-form .btn-primary {
+  background-color: #ffde59;
+  border-color: #ffde59;
+}
+
+.custom-form .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.custom-form .form-check-input:checked ~ .form-check-label {
+  color: #f9a600;
 }

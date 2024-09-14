@@ -32,7 +32,7 @@ const Blog = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <h1 className="text-white mb-4 pb-2">The No Waste Blog</h1>
-              <a href="#section_3" className="btn custom-btn custom-border-btn">Recipes & Tips</a>
+              <a href="/images/RecipesFood.mp4" className="btn custom-btn custom-border-btn">Recipes & Tips</a>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ const Blog = () => {
                     className={`custom-block-span ${liked['event1'] ? 'liked' : ''}`}
                     onClick={() => handleLikeClick('event1')}
                   >
-                    <i className="bi bi-heart"></i>
+                    <i class="bi bi-heart-fill"></i>
                   </span>
                   <div className="d-flex align-items-center">
                     <div className="comment-box">
@@ -87,10 +87,11 @@ const Blog = () => {
                 </div>
               </div>
             </div>
+            
 
             <div className="col-lg-6 col-12 mb-5 mb-lg-0">
               <div className="custom-block-image-wrap">
-                <img src="/images/FoodWaste.jpg" className="custom-block-image img-fluid" alt="" />
+                <img src="/images/Ramen.jpg" className="custom-block-image img-fluid" alt="" />
                 <i className="custom-block-icon bi-link"></i>
                 <div className="custom-block-date-wrap">
                   <strong className="text-white">16 July 2024</strong>
@@ -110,7 +111,7 @@ const Blog = () => {
                     className={`custom-block-span ${liked['event2'] ? 'liked' : ''}`}
                     onClick={() => handleLikeClick('event2')}
                   >
-                    <i className="bi bi-heart"></i>
+                    <i class="bi bi-heart-fill"></i>
                   </span>
                   <div className="d-flex align-items-center">
                     <div className="comment-box">
@@ -137,7 +138,7 @@ const Blog = () => {
               <div className="col-lg-2 col-md-4 col-12 order-2 order-md-0 order-lg-0">
                 <div className="custom-block-date-wrap d-flex d-lg-block d-md-block align-items-center mt-3 mt-lg-0 mt-md-0">
                   <h6 className="custom-block-date mb-lg-1 mb-0 me-3 me-lg-0 me-md-0">12</h6>
-                  <strong className="text-white">August 2024</strong>
+                  <strong className="text-white">November 2024</strong>
                 </div>
               </div>
 
@@ -161,7 +162,7 @@ const Blog = () => {
                       className={`custom-block-span ${liked['event3'] ? 'liked' : ''}`}
                       onClick={() => handleLikeClick('event3')}
                     >
-                      <i className="bi bi-heart"></i>
+                      <i class="bi bi-heart-fill"></i>
                     </span>
                     <div className="d-flex align-items-center">
                       <div className="comment-box">
@@ -178,7 +179,7 @@ const Blog = () => {
               <div className="col-lg-2 col-md-4 col-12 order-2 order-md-0 order-lg-0">
                 <div className="custom-block-date-wrap d-flex d-lg-block d-md-block align-items-center mt-3 mt-lg-0 mt-md-0">
                   <h6 className="custom-block-date mb-lg-1 mb-0 me-3 me-lg-0 me-md-0">24</h6>
-                  <strong className="text-white">August 2024</strong>
+                  <strong className="text-white">November 2024</strong>
                 </div>
               </div>
 
@@ -202,7 +203,7 @@ const Blog = () => {
                       className={`custom-block-span ${liked['event4'] ? 'liked' : ''}`}
                       onClick={() => handleLikeClick('event4')}
                     >
-                      <i className="bi bi-heart"></i>
+                      <i class="bi bi-heart-fill"></i>
                     </span>
                     <div className="d-flex align-items-center">
                       <div className="comment-box">

@@ -28,7 +28,7 @@ function Home() {
               </h1>
               <div className="custom-btn-group">
                 <a href="#section_2" className="btn custom-btn smoothscroll me-3">Story</a>
-                <Link to="Pages/Membership" className="btn custom-btn smoothscroll">Become a member</Link>
+                <Link to="./Components/Pages/Donate" className="btn custom-btn smoothscroll">Become a member</Link>
               </div>
             </div>
 
